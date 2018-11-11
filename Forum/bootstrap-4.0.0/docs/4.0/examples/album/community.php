@@ -19,14 +19,38 @@
 
   <body>
     <form method="POST" action="index.php">
-  <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+  <!--<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
         <a class="navbar-brand col-2 col-md-1.8 mr-0" href="#">Community</a>
+        
         <ul class="navbar-nav px-3">
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="Login/login.php">Sign out</a>
           </li>
         </ul>
-      </nav>
+      </nav>-->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">Community</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="community.php">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Events/fetch_events.php">Events</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="request_domain/view_all_request_domain.php">Domain Request</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav px-7">
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="Login/login.php">Sign out</a>
+          </li>
+        </ul>
+</nav>
+
 
 
 
@@ -173,7 +197,7 @@
                     <p class="card-text">Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications (or just 'web apps') electronic businesses, and social network services..</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <a href="WebDevelopment" class="btn btn-sm btn-outline-secondary" role="button">View</a>
+                        <a href="index.php?subject=WebDevelopment" class="btn btn-sm btn-outline-secondary" role="button">View</a>
                       
                       </div>
                       
